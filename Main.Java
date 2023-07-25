@@ -7,7 +7,7 @@ public class Main {
 
         StringBuilder sentence = new StringBuilder(Reader.nextLine());
 
-        System.out.println(sentence.toString().replace(" " , "%"));
+        System.out.println(sentence.toString().replace(" " , "%20"));
 
     }
 }
